@@ -1,0 +1,5 @@
+slack_env/
+text_files/
+.env
+.vscode/
+*.pyc
