@@ -104,7 +104,7 @@ def list_channels():
 
 if __name__ == "__main__":
     if slack_client.rtm_connect(with_team_state=False):
-        print "Starter Bot connected and running!"
+        print "ptr_bot connected and running!"
         # Runs through available channels and sends message
         for c in list_channels():
             print c["name"], c["id"]
